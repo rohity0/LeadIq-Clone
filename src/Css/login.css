@@ -1,0 +1,102 @@
+/* body{
+    background-color: rgb(224, 219, 219);
+} */
+.navbar-login{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid; */
+    align-items: center;
+    padding: 2px;
+    height: 100px;
+    padding: 0 50px 0 50px;
+    margin-bottom: 70px;
+}
+.button-signup{
+ border: 0;
+ background-color: #374c7a;
+ font-size: 16px;
+ font-weight: 600;
+ padding: 16px 20px;
+ border-radius: 8px;
+ color: white;
+}
+.logo-login{
+    height: 60px;
+    width: 60px;
+    margin-top: 33px;
+}
+.login-form{
+    margin: auto;
+    /* border: 1px solid; */
+    height:  600px ;
+    width: 35%;
+ /* padding:  20px; */
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ border-radius: 12px;
+ color: #606266;
+}
+.google{
+    height: 46px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+.line{
+   width: 90%;
+   margin: auto;
+   padding: 20px 20px 0px  20px;
+}
+
+.detail{
+    margin-top: 35px;
+    margin-bottom: 90px;
+}
+
+.form{
+ 
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    text-align: start;
+    line-height: 27px;
+    gap: 10px;
+    margin-bottom: 15px;
+     font-size: 20px;
+}
+.form input{
+    padding: 10px;
+    /* border: #e6e6e6; */
+
+}
+
+.lock{
+    margin: 0 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.lower-form{
+   width: 100% ;
+    background-color: #f7f7f7;
+}
+.lower-form> button{
+    height: 60px;
+    width: 80%;
+    background-color:  #374c7a;
+    color: white;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+.tag-detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   text-align: center; 
+   color: black;
+   font-size: 12px;
+}
+.lock-detail{
+    display: flex;
+}
