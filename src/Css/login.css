@@ -23,9 +23,12 @@
 .logo-login{
     height: 60px;
     width: 60px;
+    
+    margin: auto;
     margin-top: 33px;
 }
 .login-form{
+    padding-top: 1px ;
     margin: auto;
     /* border: 1px solid; */
     height:  600px ;
@@ -39,6 +42,9 @@
     height: 46px;
     margin-top: 16px;
     cursor: pointer;
+    margin: auto;
+    margin-top: 20px;
+   
 }
 .line{
    width: 90%;
@@ -61,11 +67,11 @@
     line-height: 27px;
     gap: 10px;
     margin-bottom: 15px;
-     font-size: 20px;
+    font-size: 20px;
 }
 .form input{
     padding: 10px;
-    /* border: #e6e6e6; */
+    
 
 }
 
@@ -84,7 +90,7 @@
     width: 80%;
     background-color:  #374c7a;
     color: white;
-    border: 0;
+    /* border: 0; */
     border-radius: 8px;
     cursor: pointer;
 

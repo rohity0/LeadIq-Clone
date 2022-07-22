@@ -1,11 +1,21 @@
+import { Link } from "@chakra-ui/react"
+import { Navigate, useNavigate } from "react-router-dom"
 import "../Css/login.css"
 
 export function Login() {
+    const xyz = useNavigate();
+
+    function handleChange() {
+        xyz("/")
+    }
+
     return (
         <div>
             <div className="navbar-login" >
                 <div>
-                    <img src="https://account.leadiq.com/common/img/logo-green-full.f6ad239e.svg" alt="icon" />
+                    
+                          <img src="https://account.leadiq.com/common/img/logo-green-full.f6ad239e.svg" onClick={handleChange} style={{cursor: "pointer"}} alt="icon" />
+                   
                 </div>
                 <div>
                     <button className="button-signup">
@@ -27,7 +37,7 @@ export function Login() {
                 <form  className="detail">
                     <div className="form">
                         <label htmlFor="">Email</label>
-                        <input placeholder="Enter Your Email" type="text" />
+                        <input style={{border: "red"}} placeholder="Enter Your Email" type="text" />
                     </div>
                       <div  className="form">
                         <label htmlFor="">Password</label>
