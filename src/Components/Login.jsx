@@ -11,7 +11,9 @@ export function Login() {
 
     return (
         <div>
-            <div className="navbar-login" >
+            <div className="navbar-login" style={{
+            
+            }} >
                 <div>
                     
                           <img src="https://account.leadiq.com/common/img/logo-green-full.f6ad239e.svg" onClick={handleChange} style={{cursor: "pointer"}} alt="icon" />
@@ -63,8 +65,12 @@ export function Login() {
 
 
             </div>
-
-
+            <hr style={{
+                marginTop: "50px",
+                   padding: "25px"
+                
+     }}/>
+               
         </div>
     )
 }

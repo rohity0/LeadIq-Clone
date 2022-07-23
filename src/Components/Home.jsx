@@ -1,4 +1,5 @@
-import { Image, Box, Flex, Input, Text, Button, Grid, GridItem, Spacer } from "@chakra-ui/react";
+import { Image, Box, Flex, Input, Text, Button, Grid, GridItem, Spacer, Divider, Stack } from "@chakra-ui/react";
+
 import { Navbar } from "./Navbar";
  
 export function Home() {
@@ -74,9 +75,9 @@ export function Home() {
                    <Text mt={"0px"} mb="10px" fontSize={"38px"} lineHeight="54px" fontWeight={"500"}  as={"h2"}> Sales teams spend too much time on low value activities. </Text>
                 </Box>
 
-                <Box maxW={"1225px"} mr="auto" ml={"auto"}  boxSizing="border-box">
+                <Box  maxW={"1225px"} h="auto" mr="auto" ml={"auto"}  boxSizing="border-box">
                     <Flex>
-                        <Box w={"40%"} border={"1px solid"} textAlign="start">
+                        <Box   boxSizing="border-box" w={"40%"} mt="60px" ml="60px" textAlign="start">
                             <Text mb={"10px"} fontSize="24px" lineHeight={'34px'} fontWeight="500" as={"h3"}  >
                              LeadIQ allows you to:
                             </Text> 
@@ -104,9 +105,80 @@ export function Home() {
                             </Button>
                             
                         </Box>
+                        <Spacer/>
+
+                        <Box position="relative"    w="50%">
+                            <Image zIndex={"2"} position={"absolute"} right="60px" src="https://assets.website-files.com/60819f9be381394642b5659e/61681bbedd3fc2974173a5c8_LeadIQ-Integrations%202-p-1600.png" alt="" />
+                               <Image position={"absolute"} right={"0"} top="18px"  src="https://assets.website-files.com/60819f9be381394642b5659e/6081b42dfc784618c92acce7_leadiq-activities-background-2.svg" alt="" />
+                                  <Image zIndex={"0"} bottom={"-20px"} left="-45px" position={"absolute"} src="https://assets.website-files.com/60819f9be381394642b5659e/6081b42d78a93f84724ea09f_leadiq-activities-background-1.svg" alt="" />
+                        </Box>
                     </Flex>
-                </Box>
+                </Box >
             </Box>
+            <Box  pt="175px" p="100px 64px" pb={"0px"} bgColor="#063c4d"  >'
+                <Flex  mW="1225px" mr="auto" ml="auto">
+                    <Box textAlign={"justify"} w="600px">
+                        <Text w="500px" color="#fff" as={"h2"} mt="0px"  mb={"10px"} fontSize="38px" lineHeight={"54px"} fontWeight="500" >
+                            Locating contact data isn't your biggest problem—it's just the tip of the iceberg.
+                        </Text>
+                        <Text as={"p"} color="#dae2e3" w="350px" mb={"50px"} fontSize="18px" lineHeight={"30px"} >
+                              Modern sales requires engagement across the entire buying team.
+                        </Text>
+                        <Flex gap="4rem">
+                            <Button padding={"28px 40px"} borderColor="transparent" bgColor={"#ffd265"} textAlign="center"
+                                fontWeight={"500"} fontSize="18px" lineHeight={"20px"} color="#063c4d" borderRadius={"100px"}  > 
+                                Book a demo
+                            </Button>
+                           
+                            <Button padding={"28px 40px"} _hover={{background: "#ffd265"}} borderColor="transparent" bgColor={"##fff"} textAlign="center"
+                                fontWeight={"400"} fontSize="14px" lineHeight={"20px"} color="#063c4d" borderRadius={"100px"} >
+                                Start Free
+                            </Button>
+                        </Flex>
+                    </Box> 
+                    <Spacer/>
+                    <Box  mt={"-60px"}>
+                        <Image  src="https://assets.website-files.com/60819f9be381394642b5659e/6081bb440430db95e36d238d_leadiq-iceberg-image-compleat.svg" alt="icon"/>
+
+                    </Box>
+
+                </Flex>
+
+
+            </Box>
+
+            <Box mW="1225px" pt="60px" pb={"32px"} >
+                <Flex padding={"0px 54px"}>
+                    <Box>
+                        <Image src="https://assets.website-files.com/60819f9be381394642b5659e/6081a538174f4d6bc01bdd27_leadiq-logo.svg" alt="icon" />
+                    </Box>
+                    <Spacer />
+                    <Box>
+                         <Flex gap="3rem">
+                            <Button padding={"28px 40px"} borderColor="transparent" bgColor={"#ffd265"} textAlign="center"
+                                fontWeight={"500"} fontSize="18px" lineHeight={"20px"} color="#063c4d" borderRadius={"100px"}  > 
+                                Book a demo
+                            </Button>
+
+                            <Button padding={"28px 40px"} textAlign="center" _hover={{background: "#ffd265"}} bgColor={"#fff;"} border={"3px solid #dae2e3;"}
+                                fontWeight={"500"} fontSize="18px" lineHeight={"20px"} color="#063c4d" borderRadius={"100px"}>
+                                Start Free
+                            </Button>
+                          
+                        </Flex>
+                    </Box>
+                </Flex>
+               
+            </Box>
+         
+            <Box mb="60px" m={"auto"} width={"1150px"}>
+                <Divider  marginBottom={"60px"} border="1px solid" borderColor={" #dae2e3;"} />
+              
+              
+            </Box>
+
+          
+            
             </>
     )
 }
