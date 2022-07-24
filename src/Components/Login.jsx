@@ -26,7 +26,7 @@ export function Login() {
                 </div>
              </div>
             
-            <div className="login-form">
+            <div style={{margin: "auto"}} className="login-form">
                 <div >
                      <img  className="logo-login" src="https://account.leadiq.com/common/img/logo-stripe.529f0a03.png" alt="logo" />
                 </div>
